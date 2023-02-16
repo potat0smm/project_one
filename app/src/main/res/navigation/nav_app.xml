@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_app"
+    app:startDestination="@id/fragmentSplashScreen">
+
+    <fragment
+        android:id="@+id/fragmentSplashScreen"
+        android:name="com.example.project_one.FragmentSplashScreen"
+        android:label=""
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_fragmentSplashScreen_to_fragment_first_window2"
+            app:destination="@id/fragment_first_window" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_first_window"
+        android:name="com.example.project_one.FirstWindow"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_first_window" />
+</navigation>
