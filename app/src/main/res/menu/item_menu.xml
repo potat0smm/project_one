@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/statics"
+        android:iconTint="@color/item"
+        android:icon="@drawable/statistics_icon"
+        android:title="Static"/>
+
+    <item
+        android:id="@+id/Discover"
+        android:iconTint="@color/item"
+        android:icon="@drawable/location_pin"
+        android:title="Discover"/>
+
+    <item
+        android:id="@+id/zero"
+        android:title=" "/>
+
+    <item
+        android:id="@+id/Chat"
+        android:iconTint="@color/item"
+        android:icon="@drawable/rectangle_4_68_"
+        android:title="Chat"/>
+    <item
+        android:id="@+id/Profile"
+        android:iconTint="@color/item"
+        android:icon="@drawable/profile"
+        android:title="Profile"/>
+</menu>
